@@ -17,14 +17,14 @@ Pod::Spec.new do |spec|
 
   spec.name         = "SJPod"
   spec.version      = "1.0.0"
-  spec.summary      = "A short description of SJPod."
+  spec.summary      = "SJpod summary"
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
   #   * Try to keep it short, snappy and to the point.
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
-  spec.description  = "测试的pod文件"
+  spec.description  = "测试的pod文件测试的pod文件测试的pod文件测试的pod文件测试的pod文件"
 
   spec.homepage     = "https://github.com/1401788197/SJPod"
   # spec.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
@@ -37,8 +37,8 @@ Pod::Spec.new do |spec|
   #  Popular ones are 'MIT', 'BSD' and 'Apache License, Version 2.0'.
   #
 
-  spec.license      = "MIT"
-  # spec.license      = { :type => "MIT", :file => "FILE_LICENSE" }
+  # spec.license      = "MIT"
+  spec.license      = { :type => "MIT", :file => "LICENSE" }
 
 
   # ――― Author Metadata  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -89,7 +89,7 @@ Pod::Spec.new do |spec|
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files  = "Class", "Class/**/*.{h,m}"
+  spec.source_files  = "Class", "**/*.{h,m}"
  # spec.exclude_files = "Classes/Exclude"
 
   # spec.public_header_files = "Classes/**/*.h"
