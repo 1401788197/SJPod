@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "SJPod"
-  spec.version      = "1.0.0"
+  spec.version      = "2.0.0"
   spec.summary      = "SJpod summary"
 
   # This description is used to generate tags and improve search results.
@@ -39,6 +39,11 @@ Pod::Spec.new do |spec|
 
   # spec.license      = "MIT"
   spec.license      = { :type => "MIT", :file => "LICENSE" }
+  # spec.license = { :type => 'MIT', :text => <<-LICENSE
+  #                  Copyright 2021
+  #                  Permission is granted to...
+  #                LICENSE
+  #              }
 
 
   # ――― Author Metadata  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
